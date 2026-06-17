@@ -1,0 +1,11 @@
+[project]
+name = "customer-support-agent"
+version = "0.1.0"
+description = "Customer support graph workflow agent for shipping company"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk>=2.0.0",
+]
+
+[project.scripts]
+customer-support-agent = "customer_support_agent.agent:main"

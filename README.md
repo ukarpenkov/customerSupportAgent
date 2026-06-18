@@ -59,7 +59,7 @@ Then open http://127.0.0.1:8000 in your browser.
 
 > **Tip:** Add the Scripts directory to PATH to use `adk` directly:
 > ```powershell
-> [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Users\trulo\AppData\Local\Python\pythoncore-3.14-64\Scripts", "User")
+> [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Users\*YOUR-USERNAME*\AppData\Local\Python\pythoncore-3.14-64\Scripts", "User")
 > ```
 
 ## Project Structure

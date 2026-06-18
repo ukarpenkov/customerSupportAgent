@@ -52,7 +52,7 @@ python -m customer_support_agent.agent
 
 ```powershell
 # Windows (full path)
-& "C:\Users\trulo\AppData\Local\Python\pythoncore-3.14-64\Scripts\adk.exe" web customer-support-agent
+& "C:\Users\*YOUR-USERNAME*\AppData\Local\Python\pythoncore-3.14-64\Scripts\adk.exe" web customer-support-agent
 ```
 
 Then open http://127.0.0.1:8000 in your browser.
